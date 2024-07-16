@@ -1,4 +1,4 @@
-# Redis-like Server
+# Jedis-like Server
 
 ## Overview
 
@@ -127,14 +127,8 @@ redis-cli -p 6379
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For any questions or feedback, please contact [Italo Marini](https://github.com/Italo115).
+For any questions or feedback, please contact (https://github.com/Italo115).
 
----
-
-This `README.md` provides a comprehensive overview of the Redis-like server project, detailing its features, usage, and internal class structure. It serves as a guide for users to get started with the project and understand its capabilities.
