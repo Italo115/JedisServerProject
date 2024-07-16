@@ -15,21 +15,15 @@ This project is a simplified implementation of a Redis-like server, written in J
 ## Future Features (Soon to be available in Decending Order)
 ### Future Features
 
-#### RDB Persistence
-
-**RDB (Redis Database) Persistence**:
+#### RDB (Redis Database) Persistence:
 - **Description**: This feature will enable the server to persist data on disk, allowing it to save the state of the key-value store at specified intervals. This ensures data durability, meaning the data will survive a server restart.
 - **Benefit**: Ensures data is not lost between server restarts and provides a way to backup and restore the database.
 
-#### Transactions
-
-**Transactions**:
+#### Transactions:
 - **Description**: This feature will introduce the ability to group multiple commands into a single transaction. All commands within a transaction will be executed in a sequence without interruption, ensuring atomicity.
 - **Benefit**: Provides a way to execute multiple commands in a safe and predictable manner, ensuring that either all commands in the transaction are executed, or none are, maintaining data consistency.
 
-#### Streams
-
-**Streams**:
+#### Streams:
 - **Description**: This feature will add support for handling streams, allowing the server to process and store data that arrives continuously. It will enable use cases like message queues and real-time data processing.
 - **Benefit**: Allows the server to efficiently handle real-time data feeds, making it suitable for applications requiring continuous data ingestion and processing, such as chat applications, IoT data collection, and event logging.
 
