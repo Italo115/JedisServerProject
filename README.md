@@ -4,13 +4,18 @@
 
 This project is a simplified implementation of a Redis-like server, written in Java. It supports basic key-value storage, expiration of keys, and master-slave replication. The server is designed to handle multiple client connections concurrently using Java's `Thread` class.
 
-## Features
+## Current Features
 
 - **Key-Value Storage**: Store and retrieve string values associated with string keys.
 - **Expiration**: Set a key-value pair with an expiration time.
 - **Master-Slave Replication**: Supports replication for a master-slave architecture.
 - **Concurrent Clients**: Handles multiple clients concurrently.
 - **Basic Redis Commands**: Implements basic Redis commands such as PING, ECHO, SET, GET, INFO, REPLCONF, PSYNC, and WAIT.
+
+## Future Features (Soon to be available in Decending Order)
+- **RDB Persistence.
+- **Transactions.
+- **Streams.
 
 ## Getting Started
 
