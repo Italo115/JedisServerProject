@@ -13,9 +13,9 @@ This project is a simplified implementation of a Redis-like server, written in J
 - **Basic Redis Commands**: Implements basic Redis commands such as PING, ECHO, SET, GET, INFO, REPLCONF, PSYNC, and WAIT.
 
 ## Future Features (Soon to be available in Decending Order)
-- **RDB Persistence.
-- **Transactions.
-- **Streams.
+- **RDB Persistence**.
+- **Transactions**.
+- **Streams**.
 
 ## Getting Started
 
