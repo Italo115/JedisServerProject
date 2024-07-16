@@ -12,8 +12,7 @@ This project is a simplified implementation of a Redis-like server, written in J
 - **Concurrent Clients**: Handles multiple clients concurrently.
 - **Basic Redis Commands**: Implements basic Redis commands such as PING, ECHO, SET, GET, INFO, REPLCONF, PSYNC, and WAIT.
 
-## Future Features (Soon to be available in Decending Order)
-### Future Features
+## Future Features (In development, in Descending order)
 
 #### RDB (Redis Database) Persistence:
 - **Description**: This feature will enable the server to persist data on disk, allowing it to save the state of the key-value store at specified intervals. This ensures data durability, meaning the data will survive a server restart.
